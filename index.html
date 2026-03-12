@@ -4,10 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="src/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-gray-500">
+<section class="relative min-h-screen flex items-center overflow-hidden ">
+  <div class="absolute inset-0 flex justify-center items-center opacity-10 ">
+    <img src="src/banner.png" alt="">
+    </div>
+  </div>
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="max-w-xl">
+      <p class="text-sm uppercase tracking-widest text-gray-200 flex items-center gap-2 mb-6">
+        <span class="w-10 h-0.5 bg-gray-200 inline-block"></span>
+        Eyewear
+      </p>
+      <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight mb-8">
+        UP TO $60 OFF POLARISED <br> SUNGLASSES
+      </h1>
+      <button class="bg-white text-black px-8 py-3 font-semibold hover:bg-gray-200 transition">
+        SHOP NOW
+      </button>
+    </div>
+  </div>
+  <div class="absolute right-5 bottom-10 rotate-90 text-sm text-white tracking-widest">
+    SCROLL
+  </div>
+</section>
 </body>
 </html>
